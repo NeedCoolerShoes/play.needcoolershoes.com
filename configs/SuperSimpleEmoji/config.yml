@@ -1,0 +1,33 @@
+chat-format: "<sse:prefix><sse:name>: <sse:message>"
+group-formats:
+emojis:
+  ncrs:
+    pattern: ':ncrs:'
+    text: '<font:ncrs:emoji><utf:e000></font>'
+  ncrsdespair:
+    pattern: ':ncrsdespair:'
+    text: '<font:ncrs:emoji><utf:e001></font>'
+  despair:
+    pattern: ':despair:'
+    text: '<font:ncrs:emoji><utf:e002></font>'
+  megamewnd:
+    pattern: ':megamewnd:'
+    text: '<font:ncrs:emoji><utf:e003></font>'
+  cat:
+    pattern: ':cat:'
+    text: '<font:ncrs:emoji><utf:e004></font>'
+  leasmug:
+    pattern: ':leasmug:'
+    text: '<font:ncrs:emoji><utf:e005></font>'
+  moustache:
+    pattern: ':moustache:'
+    text: '<font:ncrs:emoji><utf:e006></font>'
+  pxcat:
+    pattern: ':pxcat:'
+    text: '<font:ncrs:emoji><utf:e007></font>'
+  thing:
+    pattern: ':thing:'
+    text: '<font:ncrs:emoji><utf:e008></font>'
+  alien:
+    pattern: ':alien:'
+    text: '<font:ncrs:emoji><utf:e009></font>'

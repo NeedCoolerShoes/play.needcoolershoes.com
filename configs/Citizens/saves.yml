@@ -1,0 +1,118 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 40
+npc:
+  '26':
+    metadata:
+      cached-skin-uuid: c6283b14-35c6-4a29-9422-6327260c461c
+      cached-skin-uuid-name: needcoolershoes
+      nameplate-visible: 'true'
+    name: Meow Meow
+    uuid: 62f7674b-34d5-432e-ac07-9cc1eabd5b0b
+    traits:
+      spawned: true
+      type: PLAYER
+      lookclose:
+        range: 10.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: HlHSoFV0BXXx4Lyi1wPl1MW+WNaEKxvctRbpDii19udCbOqksY9QHVccqCIhGUCyUCgFWBCNXSi/Lo4hxBTVRKau017Kh+2oPH57pJZVjxgBk5RKjXzzi1HpyJhtdWIR6us4AENxI1RyaSuZoswvb7uAoz43KH2NGzXnM7xmeOs2xMGUPN8tFQ84JZoQm5BDIxFxZ07sYSHtJW2lB8+Yy6rgD/AV7bOvdu/m9rkJt+NddYkZ03GgzWvJO5tLmtriG9fyqiDBYWhaxTjk/te89FDaDEgWXArq8K5F21KJ9ITD3hmXtmoPi0phLZJ+FaNxVQuUi8cPUC/NqD8baMhXv9opM6g5eKYzQZhkt6okwz4wHHUjp59FEHNXQa+SlQvhYXMpIi30vq9jznt2NkBIT5zjlQN4pxWZjAG6PYmuxGWRH7myJNt+K1N2kEtbtmHhoJPnTPxJ4O7cfSjlD45BsQgTeqHKBu1gpGazI9Jr3mpy48W3yk2IynQTmsR3/iT+tf+ttlJodVUIaK/dq+TFcfngWzUYlJZNYEOKn5rGGAXzzFIUFPtCgGM/mgixu8Z1JcJlM2J09Oe/dtCLinJ/iEnj2fakZ8ozPDw70SRWM/yIecoZ2TX6ZPoiD6YSZrJswf8t91ndxJfDHZbIYHhZif6cpxbN5hC0EftXzikKe7Q=
+        skinName: NeedCoolerShoes
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjMxOTUzNjg5NSwKICAicHJvZmlsZUlkIiA6ICJjNjI4M2IxNDM1YzY0YTI5OTQyMjYzMjcyNjBjNDYxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWVkQ29vbGVyU2hvZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVmZGJkNzY4YzY2NDMzOGEwMWI0ZGJlZGU4YTEwMzkxMDVjMzgzYTQ2OTU5MjExNDhhNjM1NjI0OGFjNzA2YiIKICAgIH0KICB9Cn0=
+      equipment: {}
+      location:
+        bodyYaw: 58.921555
+        world: gallery
+        x: 17.0922
+        y: -60.0
+        z: -27.7055
+        yaw: 58.9216
+        pitch: -4.942
+      skinlayers: {}
+    traitnames: hologramtrait,type,skintrait,scoreboardtrait,spawned,skinlayers,rotationtrait,lookclose,owner,equipment,inventory,location,gravity
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '34':
+    metadata:
+      cached-skin-uuid: be10734a-344b-4d8f-9a7f-c6cc8549a21c
+      cached-skin-uuid-name: 8d91a62f-eb01-4a61-8745-822cf0f372d1
+    name: '8528'
+    uuid: 7ae33940-d040-4707-b6c8-3b5652b58d3e
+    traits:
+      lookclose:
+        range: 10.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skinlayers: {}
+      type: PLAYER
+      location:
+        bodyYaw: 81.729706
+        world: gallery
+        x: 19.4801
+        y: -59.0
+        z: -39.5334
+        yaw: 81.7297
+        pitch: 11.4749
+      spawned: true
+      skintrait:
+        signature: wJyGOmfes8/FgTdoFQ4YOwBnHP2TRwiu84FA+/SNeZbJ67c4yYReCTaPAzmgOV9cOf68543W+smLbqxuJjOxH0gOMppGJbIb4F71gef7DEq/C5WBjGQpe2+oZ4J+QI43Tc1L7H1p97hufaCbgwQi4kHeWoBeXV4Nlw+Gh5SAiemtcrWpuoZK/4rR6p3uwBN2r35G5qBqsWvQWXGhUfXhGNniaK9gyF1dbyBvl3C4G3zEdrxzgroN1fSo2N5IsFIwg6L8UnypVk7UNHPa+xoxl1UvnMNXLILRYl+dJqqayXI6itZW/jB4vQb+GPViuJPsfXxKPkYJxZgqU35gnEtLlTMDxRi5araiqeGDDBvACpTRle1IcaQOiIdxXGktxYqovDNyIDR6rUAJOu9YOXMc5FDBnBQJntZQ6M+rPiDFtkDLw/kDtHygwfnRZckea2Czj6oTUn3KhXr1SY/Ny9TJTFMuKiOA08SZt1Zyj3nSmYLYMN+GjwQLZYdszjtdkLtghVWc+ta5E3AVXrJD3qbIEdW/RKSrPKbWJnAbJDxti5vdD7/MRWCmz9xRrM/BZ1GsOq6ZTeXYkP8W2rHrxIeOgDcT258VQtRtGBBIAAyKmibeE69M1A+adPYcCgCm4j7ZKAopeTIphaV8oXm1tAxmMti70TVD1q5XaIRLuRcRBik=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MTY1MDM2MzI1OCwKICAicHJvZmlsZUlkIiA6ICI4ZDkxYTYyZmViMDE0YTYxODc0NTgyMmNmMGYzNzJkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWFkbW91NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjllMjUwMjRhM2RmMjVlNjNiY2UyMWM1MDhkMTZhMjU5MjAzZmIxMzUzZjVkNjdhMmVmZTYzYTQ5Mjc3OTEwIgogICAgfQogIH0KfQ==
+        skinName: 8d91a62f-eb01-4a61-8745-822cf0f372d1
+    traitnames: lookclose,owner,hologramtrait,equipment,type,skintrait,inventory,location,scoreboardtrait,spawned,skinlayers,rotationtrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '33':
+    metadata:
+      cached-skin-uuid: 47cce808-3211-4a3a-b2dc-7ed47adc56a9
+      cached-skin-uuid-name: 0b4752b4-b2f3-4ae7-806e-12cbc8e1207f
+      collidable: false
+      activation-range: 0
+    name: Barkeep
+    uuid: 2a50e3fa-4134-47a8-a3e2-84d0de7de409
+    traits:
+      skinlayers: {}
+      type: PLAYER
+      location:
+        bodyYaw: 10.509407
+        world: gallery
+        x: 79.6061
+        y: -60.0
+        z: -51.4875
+        yaw: 10.5094
+        pitch: -7.2499
+      spawned: true
+      gravity: {}
+      lookclose:
+        range: 10.0
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: aepcC5EZILBS1d+tuydzaBpr6HphHvaqM9Jt0dyag5g6ODKCm8xoy0NAEJV4y07P1SwKY5zPh+V0a+PHJCedUyvK69hUx0kkiDte8Mi0veDBTB3JWE2+ee+TXwych7Eex+A1PXFLVbcNsgTov5KZ/Rw6LR7Wma2az3lo0HLlb86E1ZHNbD4dkW5RzR12VxsdgDI9oz3wEwQwP82mnATJmmrsMRGlsbywFbI5GMgyl8f3bGO17RL+jNlPbe1JrNF+bku5DZuTwTzuNAmImU48pF4ClMDap2Lflqek5Ksdul8qZw74smEmTbdgzqIRw7HmyBQ6puwK/siTymuif82U7XopknM00cjKQFXAdCZAWvTQKrQh6AhzNhI8Kdm776RJPyY1ByRFZVVCXjyWE7aZH2PyUD0eWA0dw6zzZ76ginsVKrzIEQPuOt3HQ/TCIlL8LCNxkpdltenCwnI3aqZso46EBphbMKeVjyvacEDBAWbHH6OujHLpUg5pRUYo54oq3lgnEVQSj28W6uatZeHsuyE7Bm5jWesRFvCNIYbobaPoLQP8IOXkXU1nDMDFjIpNJwPOsYEkCJntXx63NCNS1GJ9SmMwuSWCNAgmkW3my2O1EJtkOTfL6rtPvPBsfOeIgLCsiSuQgRcNQSYwBtTw3pkdwnyazYxsLzHNMDpIiVs=
+        skinName: 0b4752b4-b2f3-4ae7-806e-12cbc8e1207f
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjMwMDIzODI4MCwKICAicHJvZmlsZUlkIiA6ICJmODJmNTQ1MDIzZDA0MTFkYmVlYzU4YWI4Y2JlMTNjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXNwb25kZW50cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNTljNmFlYWU1NzgzN2FkYTM5ZWFmYzRlMTQ4ZDBkZDM4NjVhYzVkNDk5OGI2MzUxZjYxNGEwYmVlM2FiNWY0IgogICAgfQogIH0KfQ==
+      entitypose:
+        pose: CROAKING
+      shop:
+        rightClickShop: 2a50e3fa-4134-47a8-a3e2-84d0de7de409
+    traitnames: hologramtrait,type,skintrait,poses,scoreboardtrait,spawned,skinlayers,rotationtrait,lookclose,owner,shop,equipment,inventory,location,entitypose,gravity
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

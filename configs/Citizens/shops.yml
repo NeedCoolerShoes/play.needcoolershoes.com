@@ -1,0 +1,10 @@
+npc:
+  2a50e3fa-4134-47a8-a3e2-84d0de7de409:
+    pages:
+      '0':
+        items:
+          '0':
+            display:
+              type_key: ominous_bottle
+              amount: 1
+    title: The Medieval Bar

@@ -1,1 +1,1 @@
-This file will be used to keep track of config last change date and the person who edited last.
+These are the config files for the server plugins. Please write it down when you change something.

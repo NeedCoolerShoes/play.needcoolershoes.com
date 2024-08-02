@@ -1,0 +1,29 @@
+# Unnescary big files
+configs/BKCommonLib/minecraft/
+configs/Citizens/lib/
+configs/LuckPerms/libs/
+configs/PlaceholderAPI/expansions/
+
+# Translations
+*.lang
+configs/BreweryX/languages/
+configs/CitizensCMD/lang/
+configs/FastAsyncWorldEdit/lang/
+configs/GSit/lang/
+configs/LuckPerms/translations/
+configs/My_Worlds/Localization.yml
+configs/Quests/lang/
+configs/Skript/lang/
+configs/TAB/messages.yml
+configs/VoxelSniper/lang.yml
+configs/voicechat/translations.properties
+
+
+# Data
+*.db
+configs/BreweryX/worlddata.yml
+configs/BreweryX/worlddataBackup.yml
+configs/FastAsyncWorldEdit/clipboard/
+configs/FastAsyncWorldEdit/history/
+configs/GSit/data/
+configs/ImageFrame/players/

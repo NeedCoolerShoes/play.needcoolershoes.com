@@ -1,0 +1,39 @@
+# The prefix in front of the plugin's messages.
+prefix: "&7[&6AL&7]"
+
+# The links that will appear in the links menu
+links:
+  # Any name to identify this link
+  MNCS:
+    # displayName: "<gradient:yellow:red>My custom name with gradients</gradient> &6and legacy colors!" # The text that will appear in the button.
+    # The type of the button. If you are using this field, the "displayName" field will be ignored.
+    # WARNING! This may override or be overriden by server links of the same type from other plugins.
+    # Must be a value from this list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ServerLinks.Type.html
+    type: WEBSITE
+    url: "https://needcoolershoes.com" # The link that will be opened when the button is clicked.
+  
+  status:
+    type: STATUS
+    url: "https://status.nucceteere.xyz"
+  
+  support:
+    type: SUPPORT
+    url: "https://discord.gg/GmG9xFerKn"
+  
+  bug:
+    type: REPORT_BUG
+    url: "mailto:info@nucceteere.xyz"
+
+  feedback:
+    type: FEEDBACK
+    url: "https://discord.gg/GmG9xFerKn"
+  
+  news:
+    type: NEWS
+    url: "https://discord.gg/GmG9xFerKn"
+
+  rules:
+    type: COMMUNITY_GUIDELINES
+    url: "https://needcoolershoes.com/rules"
+  
+  
