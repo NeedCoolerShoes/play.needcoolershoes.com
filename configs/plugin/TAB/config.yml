@@ -2,15 +2,14 @@
 header-footer:
   enabled: true
   header:
-    - "&3&lServer name"
-    - "&7Online players: &f%online%"
+    - "&3&lMiners Need Cooler Shoes"
     - "&6Online staff: &e%staffonline%"
     - ""
   footer:
-    - "%animation:time%"
-    - "&2Ping: %ping%"
-    - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
-  disable-condition: '%world%=disabledworld'
+    - ""
+    - "needcoolershoes.com"
+
+  disable-condition: "%world%=disabledworld"
   per-world:
     world1:
       header:
@@ -30,7 +29,7 @@ header-footer:
 tablist-name-formatting:
   enabled: true
   anti-override: true
-  disable-condition: '%world%=disabledworld'
+  disable-condition: "%world%=disabledworld"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
 scoreboard-teams:
@@ -44,12 +43,12 @@ scoreboard-teams:
     - "PLACEHOLDER_A_TO_Z:%player%"
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
-  disable-condition: '%world%=disabledworld'
+  disable-condition: "%world%=disabledworld"
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Unlimited-nametag-mode
   unlimited-nametag-mode:
     enabled: false
     disable-on-boats: true
-    disable-condition: '%world%=disabledworld'
+    disable-condition: "%world%=disabledworld"
     dynamic-lines:
       - abovename
       - nametag #the original one, combination of tagprefix + customtagname + tagsuffix
@@ -63,7 +62,7 @@ playerlist-objective:
   enabled: true
   value: "%ping%"
   fancy-value: "&7Ping: %ping%"
-  disable-condition: '%world%=disabledworld'
+  disable-condition: "%world%=disabledworld"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
 belowname-objective:
@@ -72,7 +71,7 @@ belowname-objective:
   text: "&cHealth"
   fancy-display-players: "&c%health%"
   fancy-display-default: "NPC"
-  disable-condition: '%world%=disabledworld'
+  disable-condition: "%world%=disabledworld"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Spectator-fix
 prevent-spectator-effect:
@@ -140,28 +139,28 @@ layout:
   direction: COLUMNS
   default-skin: mineskin:1753261242
   enable-remaining-players-text: true
-  remaining-players-text: '... and %s more'
+  remaining-players-text: "... and %s more"
   empty-slot-ping-value: 1000
   layouts:
     default:
       fixed-slots:
-        - '1|&3Website&f:'
-        - '2|&bmyserver.net'
-        - '3|&8&m                       '
-        - '4|&3Name&f:'
-        - '5|&b%player%'
-        - '7|&3Rank&f:'
-        - '8|Rank: %group%'
-        - '10|&3World&f:'
-        - '11|&b%world%'
-        - '13|&3Time&f:'
-        - '14|&b%time%'
-        - '21|&3Teamspeak&f:'
-        - '22|&bts.myserver.net'
-        - '23|&8&m                       '
-        - '41|&3Store&f:'
-        - '42|&bshop.myserver.net'
-        - '43|&8&m                       '
+        - "1|&3Website&f:"
+        - "2|&bmyserver.net"
+        - "3|&8&m                       "
+        - "4|&3Name&f:"
+        - "5|&b%player%"
+        - "7|&3Rank&f:"
+        - "8|Rank: %group%"
+        - "10|&3World&f:"
+        - "11|&b%world%"
+        - "13|&3Time&f:"
+        - "14|&b%time%"
+        - "21|&3Teamspeak&f:"
+        - "22|&bts.myserver.net"
+        - "23|&8&m                       "
+        - "41|&3Store&f:"
+        - "42|&bshop.myserver.net"
+        - "43|&8&m                       "
       groups:
         staff:
           condition: permission:tab.staff
