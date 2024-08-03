@@ -1,29 +1,30 @@
 # Unnescary big files
-configs/BKCommonLib/minecraft/
-configs/Citizens/lib/
-configs/LuckPerms/libs/
-configs/PlaceholderAPI/expansions/
+configs/plugin/BKCommonLib/minecraft/
+configs/plugin/Citizens/lib/
+configs/plugin/LuckPerms/libs/
+configs/plugin/PlaceholderAPI/expansions/
 
 # Translations
 *.lang
-configs/BreweryX/languages/
-configs/CitizensCMD/lang/
-configs/FastAsyncWorldEdit/lang/
-configs/GSit/lang/
-configs/LuckPerms/translations/
-configs/My_Worlds/Localization.yml
-configs/Quests/lang/
-configs/Skript/lang/
-configs/TAB/messages.yml
-configs/VoxelSniper/lang.yml
-configs/voicechat/translations.properties
+configs/plugin/BreweryX/languages/
+configs/plugin/BreweryX/configs
+configs/plugin/CitizensCMD/lang/
+configs/plugin/FastAsyncWorldEdit/lang/
+configs/plugin/GSit/lang/
+configs/plugin/LuckPerms/translations/
+configs/plugin/My_Worlds/Localization.yml
+configs/plugin/Quests/lang/
+configs/plugin/Skript/lang/
+configs/plugin/TAB/messages.yml
+configs/plugin/VoxelSniper/lang.yml
+configs/plugin/voicechat/translations.properties
 
 
 # Data
 *.db
-configs/BreweryX/worlddata.yml
-configs/BreweryX/worlddataBackup.yml
-configs/FastAsyncWorldEdit/clipboard/
-configs/FastAsyncWorldEdit/history/
-configs/GSit/data/
-configs/ImageFrame/players/
+configs/plugin/BreweryX/worlddata.yml
+configs/plugin/BreweryX/worlddataBackup.yml
+configs/plugin/FastAsyncWorldEdit/clipboard/
+configs/plugin/FastAsyncWorldEdit/history/
+configs/plugin/GSit/data/
+configs/plugin/ImageFrame/players/
