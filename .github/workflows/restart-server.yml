@@ -2,6 +2,8 @@ on:
   push: 
     branches: [ "main" ]
 
+  workflow_dispatch:
+
 name: Restart Minecraft Server
 jobs: 
   restart-server:
@@ -9,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    #   - name: Checkout
+    #     uses: actions/checkout@v4
 
-      - name: Get Commit Hash (Short)
-        run: |
-          git_hash=$(git rev-parse --short "$GITHUB_SHA")
-          echo "git_hash=$git_hash" >> $GITHUB_ENV
+      # - name: Get Commit Hash (Short)
+      #   run: |
+      #     git_hash=$(git rev-parse --short "$GITHUB_SHA")
+      #     echo "git_hash=$git_hash" >> $GITHUB_ENV
 
       - name: Restart Server
-        uses: Plagiatus/RCON-Action@v0.2
+        uses: Plagiatus/RCON-Action@v0.2.0
         with: 
           server: ${{ secrets.SERVER_IP }}
           port: 25575
