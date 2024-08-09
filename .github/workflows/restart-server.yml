@@ -1,0 +1,26 @@
+on: 
+  push: 
+    branches: [ "main" ]
+
+name: Restart Minecraft Server
+jobs: 
+  restart-server:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get Commit Hash (Short)
+        run: |
+          git_hash=$(git rev-parse --short "$GITHUB_SHA")
+          echo "git_hash=$git_hash" >> $GITHUB_ENV
+
+      - name: Restart Server
+        uses: wolfigster/rcon-action@v1.0.2
+        with: 
+          server: ${{ secrets.SERVER_IP }}
+          port: 25575
+          password: ${{ secrets.RCON_PASSWORD }}
+          commands: '["kick @a Config Update ${{ env.git_hash }} is being deployed", "discord broadcast Config Update ${{ env.git_hash }} is being deployed", "restart"]'
