@@ -1,28 +1,28 @@
-on: 
-  push: 
-    branches: [ "main" ]
+# on: 
+#   push: 
+#     branches: [ "main" ]
 
-  workflow_dispatch:
+#   workflow_dispatch:
 
-name: Restart Minecraft Server
-jobs: 
-  restart-server:
+# name: Restart Minecraft Server
+# jobs: 
+#   restart-server:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    steps:
-    #   - name: Checkout
-    #     uses: actions/checkout@v4
+#     steps:
+#     #   - name: Checkout
+#     #     uses: actions/checkout@v4
 
-      # - name: Get Commit Hash (Short)
-      #   run: |
-      #     git_hash=$(git rev-parse --short "$GITHUB_SHA")
-      #     echo "git_hash=$git_hash" >> $GITHUB_ENV
+#       # - name: Get Commit Hash (Short)
+#       #   run: |
+#       #     git_hash=$(git rev-parse --short "$GITHUB_SHA")
+#       #     echo "git_hash=$git_hash" >> $GITHUB_ENV
 
-      - name: Restart Server
-        uses: Plagiatus/RCON-Action@v0.2.0
-        with: 
-          server: ${{ secrets.SERVER_IP }}
-          port: 25575
-          password: ${{ secrets.RCON_PASSWORD }}
-          commands: '["restart"]' #  "discord broadcast Config update ${{ env.git_hash }} is being deployed", "kick @a Config update ${{ env.git_hash }} is being deployed", 
+#       - name: Restart Server
+#         uses: Plagiatus/RCON-Action@v0.2.0
+#         with: 
+#           server: ${{ secrets.SERVER_IP }}
+#           port: 25575
+#           password: ${{ secrets.RCON_PASSWORD }}
+#           commands: '["restart"]' #  "discord broadcast Config update ${{ env.git_hash }} is being deployed", "kick @a Config update ${{ env.git_hash }} is being deployed", 
