@@ -23,4 +23,4 @@ jobs:
           server: ${{ secrets.SERVER_IP }}
           port: 25575
           password: ${{ secrets.RCON_PASSWORD }}
-          commands: '["kick @a Config Update ${{ env.git_hash }} is being deployed", "discord broadcast Config Update ${{ env.git_hash }} is being deployed", "restart"]'
+          commands: '["kick @a Config update ${{ env.git_hash }} is being deployed", "discord broadcast Config update ${{ env.git_hash }} is being deployed", "restart"]'
