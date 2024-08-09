@@ -18,7 +18,7 @@ jobs:
           echo "git_hash=$git_hash" >> $GITHUB_ENV
 
       - name: Restart Server
-        uses: wolfigster/rcon-action@v1.0.2
+        uses: Plagiatus/RCON-Action@v0.2
         with: 
           server: ${{ secrets.SERVER_IP }}
           port: 25575
