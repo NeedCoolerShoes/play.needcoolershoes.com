@@ -1,0 +1,10 @@
+questData:
+  '000001':
+    item-delivery-amounts:
+    - 0
+currentQuests:
+- '000001'
+currentStages:
+- 0
+quest-points: 0
+lastKnownName: Nucceteere

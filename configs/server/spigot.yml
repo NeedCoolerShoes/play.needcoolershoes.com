@@ -31,7 +31,7 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
   save-user-cache-on-stop-only: false
-  timeout-time: 60
+  timeout-time: 600000
   restart-on-crash: true
   restart-script: ./start.sh
 commands:

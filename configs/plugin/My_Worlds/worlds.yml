@@ -1,102 +1,105 @@
-world:
+hub:
+  loaded: false
+  keepSpawnLoaded: true
+  environment: normal
+  chunkGenerator: ''
+  gamemode: NONE
+  rememberlastplayerpos: false
+  pvp: true
+  defaultNetherPortal:
+    mode: DEFAULT
+    name: gallery
+    display: ''
+    playersOnly: false
+    teleportMounts: true
+    teleportToLastPosition: false
+    showCredits: false
+    nonPlayersCreatePortals: true
+    activationEnabled: true
+    autoDetect: false
+  defaultEndPortal:
+    mode: DEFAULT
+    name: ''
+    display: ''
+    playersOnly: false
+    teleportMounts: true
+    teleportToLastPosition: false
+    showCredits: false
+    nonPlayersCreatePortals: true
+    activationEnabled: true
+    autoDetect: true
+  operators: []
+  deniedCreatures: []
+  hunger: true
+  formIce: true
+  formSnow: true
+  difficulty: NORMAL
+  reloadWhenEmpty: false
+  bedRespawnMode: ENABLED
+  advancementsEnabled: true
+  advancementsSilent: false
+  playerLimit: -1
+  playerDataFolder: ''
+  spawn:
+    world: hub
+    x: 660.5
+    y: 75.0
+    z: 3675.5
+    yaw: -47.849945068359375
+    pitch: 20.399982452392578
+gallery_the_end:
+  loaded: true
+  keepSpawnLoaded: true
+  environment: the_end_flat
+  chunkGenerator: ''
+  gamemode: NONE
+  rememberlastplayerpos: false
+  pvp: true
+  defaultNetherPortal:
+    mode: DEFAULT
+    name: ''
+    display: ''
+    playersOnly: false
+    teleportMounts: true
+    teleportToLastPosition: false
+    showCredits: false
+    nonPlayersCreatePortals: true
+    activationEnabled: true
+    autoDetect: true
+  defaultEndPortal:
+    mode: DEFAULT
+    name: ''
+    display: ''
+    playersOnly: false
+    teleportMounts: true
+    teleportToLastPosition: false
+    showCredits: false
+    nonPlayersCreatePortals: true
+    activationEnabled: true
+    autoDetect: true
+  operators: []
+  deniedCreatures: []
+  hunger: true
+  formIce: true
+  formSnow: true
+  difficulty: NORMAL
+  reloadWhenEmpty: false
+  bedRespawnMode: ENABLED
+  advancementsEnabled: true
+  advancementsSilent: false
+  playerLimit: -1
+  playerDataFolder: ''
+satff-sutvvvisral:
   loaded: true
   keepSpawnLoaded: true
   environment: normal
   chunkGenerator: ''
   gamemode: NONE
-  lockedtime: 3336
-  rememberlastplayerpos: false
-  pvp: true
-  defaultNetherPortal:
-    mode: NETHER_LINK
-    name: world_nether
-    display: ''
-    playersOnly: false
-    teleportMounts: true
-    teleportToLastPosition: false
-    showCredits: false
-    nonPlayersCreatePortals: true
-    activationEnabled: true
-    autoDetect: true
-  defaultEndPortal:
-    mode: END_PLATFORM
-    name: world_the_end
-    display: ''
-    playersOnly: false
-    teleportMounts: true
-    teleportToLastPosition: false
-    showCredits: false
-    nonPlayersCreatePortals: true
-    activationEnabled: true
-    autoDetect: true
-  operators: []
-  deniedCreatures: []
-  hunger: true
-  formIce: true
-  formSnow: true
-  difficulty: NORMAL
-  reloadWhenEmpty: false
-  bedRespawnMode: ENABLED
-  advancementsEnabled: true
-  advancementsSilent: false
-  playerLimit: -1
-  playerDataFolder: ''
-world_the_end:
-  loaded: true
-  keepSpawnLoaded: true
-  environment: the_end
-  chunkGenerator: ''
-  gamemode: NONE
   rememberlastplayerpos: false
   pvp: true
   defaultNetherPortal:
     mode: DEFAULT
     name: ''
-    display: ''
-    playersOnly: false
-    teleportMounts: true
-    teleportToLastPosition: false
-    showCredits: false
-    nonPlayersCreatePortals: true
-    activationEnabled: true
-    autoDetect: true
-  defaultEndPortal:
-    mode: RESPAWN
-    name: world
-    display: ''
-    playersOnly: true
-    teleportMounts: true
-    teleportToLastPosition: false
-    showCredits: true
-    nonPlayersCreatePortals: true
-    activationEnabled: true
-    autoDetect: true
-  operators: []
-  deniedCreatures: []
-  hunger: true
-  formIce: true
-  formSnow: true
-  difficulty: NORMAL
-  reloadWhenEmpty: false
-  bedRespawnMode: ENABLED
-  advancementsEnabled: true
-  advancementsSilent: false
-  playerLimit: -1
-  playerDataFolder: ''
-  respawn:
-    type: WORLD_SPAWN
-    world: world
-world_nether:
-  loaded: true
-  keepSpawnLoaded: true
-  environment: nether
-  chunkGenerator: ''
-  gamemode: NONE
-  rememberlastplayerpos: false
-  pvp: true
-  defaultNetherPortal:
-    mode: NETHER_LINK
-    name: world
     display: ''
     playersOnly: false
     teleportMounts: true
@@ -128,21 +131,18 @@ world_nether:
   advancementsSilent: false
   playerLimit: -1
   playerDataFolder: ''
-  respawn:
-    type: WORLD_SPAWN
-    world: world
 gallery:
   loaded: true
   keepSpawnLoaded: true
   environment: flat
   chunkGenerator: ''
   gamemode: NONE
-  lockedtime: 6000
+  lockedtime: 1000
   rememberlastplayerpos: false
   pvp: true
   defaultNetherPortal:
     mode: DEFAULT
-    name: ''
+    name: gallery_nether
     display: ''
     playersOnly: false
     teleportMounts: true
@@ -150,7 +150,7 @@ gallery:
     showCredits: false
     nonPlayersCreatePortals: true
     activationEnabled: true
-    autoDetect: true
+    autoDetect: false
   defaultEndPortal:
     mode: DEFAULT
     name: ''
@@ -168,6 +168,48 @@ gallery:
   formIce: true
   formSnow: true
   difficulty: EASY
+  reloadWhenEmpty: false
+  bedRespawnMode: ENABLED
+  advancementsEnabled: true
+  advancementsSilent: false
+  playerLimit: -1
+  playerDataFolder: ''
+gallery_nether:
+  loaded: true
+  keepSpawnLoaded: true
+  environment: nether_flat
+  chunkGenerator: ''
+  gamemode: NONE
+  rememberlastplayerpos: false
+  pvp: true
+  defaultNetherPortal:
+    mode: DEFAULT
+    name: ''
+    display: ''
+    playersOnly: false
+    teleportMounts: true
+    teleportToLastPosition: false
+    showCredits: false
+    nonPlayersCreatePortals: true
+    activationEnabled: true
+    autoDetect: true
+  defaultEndPortal:
+    mode: DEFAULT
+    name: ''
+    display: ''
+    playersOnly: false
+    teleportMounts: true
+    teleportToLastPosition: false
+    showCredits: false
+    nonPlayersCreatePortals: true
+    activationEnabled: true
+    autoDetect: true
+  operators: []
+  deniedCreatures: []
+  hunger: true
+  formIce: true
+  formSnow: true
+  difficulty: NORMAL
   reloadWhenEmpty: false
   bedRespawnMode: ENABLED
   advancementsEnabled: true

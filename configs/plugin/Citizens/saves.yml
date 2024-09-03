@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 40
+last-created-npc-id: 45
 npc:
   '26':
     metadata:
@@ -26,50 +26,15 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMjMxOTUzNjg5NSwKICAicHJvZmlsZUlkIiA6ICJjNjI4M2IxNDM1YzY0YTI5OTQyMjYzMjcyNjBjNDYxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWVkQ29vbGVyU2hvZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVmZGJkNzY4YzY2NDMzOGEwMWI0ZGJlZGU4YTEwMzkxMDVjMzgzYTQ2OTU5MjExNDhhNjM1NjI0OGFjNzA2YiIKICAgIH0KICB9Cn0=
       equipment: {}
       location:
-        bodyYaw: 58.921555
+        bodyYaw: -97.2625
         world: gallery
         x: 17.0922
         y: -60.0
         z: -27.7055
-        yaw: 58.9216
-        pitch: -4.942
+        yaw: -97.2625
+        pitch: -34.3941
       skinlayers: {}
-    traitnames: hologramtrait,type,skintrait,scoreboardtrait,spawned,skinlayers,rotationtrait,lookclose,owner,equipment,inventory,location,gravity
-    navigator:
-      speedmodifier: 1.0
-      avoidwater: false
-      usedefaultstuckaction: false
-  '34':
-    metadata:
-      cached-skin-uuid: be10734a-344b-4d8f-9a7f-c6cc8549a21c
-      cached-skin-uuid-name: 8d91a62f-eb01-4a61-8745-822cf0f372d1
-    name: '8528'
-    uuid: 7ae33940-d040-4707-b6c8-3b5652b58d3e
-    traits:
-      lookclose:
-        range: 10.0
-        randomPitchRange:
-          '0': 0.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-      skinlayers: {}
-      type: PLAYER
-      location:
-        bodyYaw: 81.729706
-        world: gallery
-        x: 19.4801
-        y: -59.0
-        z: -39.5334
-        yaw: 81.7297
-        pitch: 11.4749
-      spawned: true
-      skintrait:
-        signature: wJyGOmfes8/FgTdoFQ4YOwBnHP2TRwiu84FA+/SNeZbJ67c4yYReCTaPAzmgOV9cOf68543W+smLbqxuJjOxH0gOMppGJbIb4F71gef7DEq/C5WBjGQpe2+oZ4J+QI43Tc1L7H1p97hufaCbgwQi4kHeWoBeXV4Nlw+Gh5SAiemtcrWpuoZK/4rR6p3uwBN2r35G5qBqsWvQWXGhUfXhGNniaK9gyF1dbyBvl3C4G3zEdrxzgroN1fSo2N5IsFIwg6L8UnypVk7UNHPa+xoxl1UvnMNXLILRYl+dJqqayXI6itZW/jB4vQb+GPViuJPsfXxKPkYJxZgqU35gnEtLlTMDxRi5araiqeGDDBvACpTRle1IcaQOiIdxXGktxYqovDNyIDR6rUAJOu9YOXMc5FDBnBQJntZQ6M+rPiDFtkDLw/kDtHygwfnRZckea2Czj6oTUn3KhXr1SY/Ny9TJTFMuKiOA08SZt1Zyj3nSmYLYMN+GjwQLZYdszjtdkLtghVWc+ta5E3AVXrJD3qbIEdW/RKSrPKbWJnAbJDxti5vdD7/MRWCmz9xRrM/BZ1GsOq6ZTeXYkP8W2rHrxIeOgDcT258VQtRtGBBIAAyKmibeE69M1A+adPYcCgCm4j7ZKAopeTIphaV8oXm1tAxmMti70TVD1q5XaIRLuRcRBik=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTU5MTY1MDM2MzI1OCwKICAicHJvZmlsZUlkIiA6ICI4ZDkxYTYyZmViMDE0YTYxODc0NTgyMmNmMGYzNzJkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWFkbW91NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjllMjUwMjRhM2RmMjVlNjNiY2UyMWM1MDhkMTZhMjU5MjAzZmIxMzUzZjVkNjdhMmVmZTYzYTQ5Mjc3OTEwIgogICAgfQogIH0KfQ==
-        skinName: 8d91a62f-eb01-4a61-8745-822cf0f372d1
-    traitnames: lookclose,owner,hologramtrait,equipment,type,skintrait,inventory,location,scoreboardtrait,spawned,skinlayers,rotationtrait
+    traitnames: skinlayers,spawned,gravity,equipment,hologramtrait,location,inventory,rotationtrait,skintrait,type,scoreboardtrait,lookclose,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false
@@ -86,13 +51,13 @@ npc:
       skinlayers: {}
       type: PLAYER
       location:
-        bodyYaw: 10.509407
+        bodyYaw: -48.99314
         world: gallery
         x: 79.6061
         y: -60.0
         z: -51.4875
-        yaw: 10.5094
-        pitch: -7.2499
+        yaw: -48.9931
+        pitch: -17.581
       spawned: true
       gravity: {}
       lookclose:
@@ -111,7 +76,78 @@ npc:
         pose: CROAKING
       shop:
         rightClickShop: 2a50e3fa-4134-47a8-a3e2-84d0de7de409
-    traitnames: hologramtrait,type,skintrait,poses,scoreboardtrait,spawned,skinlayers,rotationtrait,lookclose,owner,shop,equipment,inventory,location,entitypose,gravity
+    traitnames: skinlayers,poses,spawned,gravity,equipment,hologramtrait,location,shop,inventory,entitypose,rotationtrait,skintrait,type,scoreboardtrait,lookclose,owner
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '44':
+    metadata:
+      cached-skin-uuid: c6283b14-35c6-4a29-9422-6327260c461c
+      cached-skin-uuid-name: needcoolershoes
+      nameplate-visible: 'false'
+    name: NeedCoolerShoes
+    uuid: fd0b5dbf-472b-4049-9871-85dc5e789e4a
+    traits:
+      type: PLAYER
+      lookclose:
+        range: 10.0
+        enabled: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      gravity:
+        enabled: true
+      skintrait:
+        signature: QPaxUVcnfhq0p84/2ZiNhP43xk9gRywr8wwBGvrhzMwD+PdTDPtjuMqIRnVWBUUQRZ/isBVZhlEtoPQ3wpkwNvs9FS+ygo6yR5OZQ8EcX00gklHp6H8Jook16xYOaaa04x7Uh3k1I+pIFtJkm/CMzs98lqe1oFPBj/f5cXRJH3r+O4fek2sqKSfDZ1YvWSkKUU/7g3fGa4swNHogeom4zc98CSU9TfiwPKK7DDQrs2Fd7DF2rSTCAenBUobW6imW4AmMDxow5faeoXSEy7dBaISFeCJBiHLVgk97YCKROuFwp7ji+OwaXF5ApGUM3jf2O/fC3DXOYSbtdcFqXOpqAUNBKUhr9wFn/Y9zOYpIOQvrJvvHLcuiWLkBiJ7Q/tA4mZNRamT5+2jb22jqihG+pw2y5b4SNg7/lDgroJQ9y63rmYKXwqBB4JNS/uPm8gU2dp213CEG5rOv/QFHnIAyteAY/D3A+e+vx1Mw/g+x6kZw22ktrUDFg5Wcb3fteZQX3X4OBdW9snyCGVpK1Nhmop1z6efoBBSq3DK4vx1dWpfr5LtQVjLMQ4Jruator0/SWIlRY0oOu05aNM+AkJYtYhlQ/WTDM8OWC86jH8T3Qg9bp7qjeTvb4eQ+RjWgnSKVrpeVl58dARP+w4ZsCoOZ30rA2uL8YDJUVG2ayjrgHAI=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzQ0MjQzMzU2NCwKICAicHJvZmlsZUlkIiA6ICJjNjI4M2IxNDM1YzY0YTI5OTQyMjYzMjcyNjBjNDYxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWVkQ29vbGVyU2hvZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVmZGJkNzY4YzY2NDMzOGEwMWI0ZGJlZGU4YTEwMzkxMDVjMzgzYTQ2OTU5MjExNDhhNjM1NjI0OGFjNzA2YiIKICAgIH0KICB9Cn0=
+      location:
+        bodyYaw: -178.58525
+        world: gallery
+        x: 93.5
+        y: -59.0
+        z: -11.5
+        yaw: -178.5853
+        pitch: 13.27
+      spawned: true
+    traitnames: skinlayers,spawned,gravity,equipment,hologramtrait,location,inventory,rotationtrait,skintrait,type,scoreboardtrait,lookclose,owner
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '45':
+    metadata:
+      cached-skin-uuid: c6283b14-35c6-4a29-9422-6327260c461c
+      cached-skin-uuid-name: needcoolershoes
+    name: NeedCoolerShoes
+    uuid: ab2f4f8a-b6b2-4239-82c9-064527c891dd
+    traits:
+      spawned: true
+      lookclose:
+        range: 10.0
+        enabled: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        signature: N4711oKjGHMvDw9ypVaLq53GutI4jYi1//UvMB+aC6j3360xb4K+RKl8DrTcC4nIyLRXQja+SfoBLRk4RMbRuJ2tdg1RBq298ycLjSao9W3m9VsuhtL84Y5m2RmFHvKdvFkdwZ5uB/tfPt8qVdVUuQiQFPWp0MCCAMMD8JEyiXfcW8IRyGThdeYpDQs5AdBP9vVbUulhxmIWbI/uU2p6nPN1t/dpD/bVZ6rrP+7oRjfZUCIiTEumGyZR087n+wb30nYvKTLWIVm9psgkE3ueGNdA3QU27XgcD2RsskVZjwPjpth9w2l/WssIpD7umEJaBkksRG/BKAnnIwkvSwXuREewno3IXEgKdI3SEEhrQ0htQlNpK9TChJ4X6Eu9n/rJ7CIbcu86eeJgLAGtVIJm4ASnIGOmDIjk/MGVOevr6MwHw2skWM7qLJTHBTJCqXb7xJSGB6WGR9mznuaEHvOo7j6j+jFP6QPlTG1Lzl5vId4GspZv46MEam+SPPtaXcPyexPZq/M/M/ehxMnEZ0gHlmR3Ye5r78BT56TFickI+ZNFsfYUJ78SGOGQl7x9eqN60njyct0L42Hgxl4wahpIrcC/3dbzM8uRNsq3SCqSetOAf4MEIRNtovGEQ7EBQKNBWRVaNq5uxQ/Sb9GhQaFh2H1Z2R+nZNr7NhskKIKdBTY=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMzQ4NTY3OTM4NCwKICAicHJvZmlsZUlkIiA6ICJjNjI4M2IxNDM1YzY0YTI5OTQyMjYzMjcyNjBjNDYxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWVkQ29vbGVyU2hvZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVmZGJkNzY4YzY2NDMzOGEwMWI0ZGJlZGU4YTEwMzkxMDVjMzgzYTQ2OTU5MjExNDhhNjM1NjI0OGFjNzA2YiIKICAgIH0KICB9Cn0=
+      type: PLAYER
+      location:
+        bodyYaw: -90.0
+        world: gallery
+        x: 60.41
+        y: -60.0
+        z: -36.969
+        yaw: -90.0
+        pitch: 0.0
+    traitnames: rotationtrait,skinlayers,skintrait,spawned,type,equipment,hologramtrait,location,scoreboardtrait,inventory,lookclose,owner
     navigator:
       speedmodifier: 1.0
       avoidwater: false

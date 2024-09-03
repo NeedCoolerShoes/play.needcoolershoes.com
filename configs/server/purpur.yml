@@ -20,10 +20,10 @@ settings:
     anvil:
       allow-unsafe-enchants: false
       allow-inapplicable-enchants: true
-      allow-incompatible-enchants: true
-      allow-higher-enchants-levels: true
+      allow-incompatible-enchants: false
+      allow-higher-enchants-levels: false
       replace-incompatible-enchants: false
-    allow-unsafe-enchant-command: false
+    allow-unsafe-enchant-command: true
     clamp-levels: false
   allow-water-placement-in-the-end: true
   blast-resistance-overrides: {}
@@ -98,11 +98,11 @@ settings:
       six-rows: false
       use-permissions-for-rows: false
     crying_obsidian:
-      valid-for-portal-frame: false
+      valid-for-portal-frame: true
     beehive:
       max-bees-inside: 3
     anvil:
-      cumulative-cost: true
+      cumulative-cost: false
     lightning_rod:
       range: 128
     grindstone:

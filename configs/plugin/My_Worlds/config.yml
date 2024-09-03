@@ -21,7 +21,7 @@ storeInventoryInMainWorld: false
 
 # The main world in which new players spawn
 # If left empty, the main world defined in the server.properties is used
-mainWorld: lobby
+mainWorld: gallery
 useWorldEnterPermissions: false
 useWorldBuildPermissions: false
 useWorldUsePermissions: false

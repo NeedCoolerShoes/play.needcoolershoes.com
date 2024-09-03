@@ -1,0 +1,12 @@
+[Sal, 13. Ağu 2024 07:14:45 TRT | ID 389424330846502913] nucceteere2: !c execute as Moxvallix run tp Moxvallix ~ ~200 ~
+[Sal, 13. Ağu 2024 08:52:24 TRT | ID 389424330846502913] nucceteere2: !c bam moxvallix
+[Sal, 13. Ağu 2024 17:26:37 TRT | ID 389424330846502913] nucceteere2: !c pm unload interactivechatdiscordssrvaddon
+[Sal, 13. Ağu 2024 17:26:44 TRT | ID 389424330846502913] nucceteere2: !c pm unload interactivechat
+[Sal, 13. Ağu 2024 17:26:51 TRT | ID 389424330846502913] nucceteere2: !c pm unload interactivechat
+[Sal, 13. Ağu 2024 17:35:17 TRT | ID 389424330846502913] nucceteere2: !c pm load interactivechat
+[Sal, 13. Ağu 2024 17:36:03 TRT | ID 389424330846502913] nucceteere2: !c restart
+[Sal, 13. Ağu 2024 17:41:12 TRT | ID 389424330846502913] nucceteere2: !c pm unload sse
+[Sal, 13. Ağu 2024 17:41:20 TRT | ID 389424330846502913] nucceteere2: !c pm unload supersimpleemoji
+[Sal, 13. Ağu 2024 17:46:13 TRT | ID 389424330846502913] nucceteere2: !c restart
+[Sal, 13. Ağu 2024 18:03:27 TRT | ID 510318433162887173] moxvallix: !c op Moxvallix
+[Sal, 13. Ağu 2024 18:53:16 TRT | ID 389424330846502913] nucceteere2: !c restart
