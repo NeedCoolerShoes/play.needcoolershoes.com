@@ -1,1 +1,1 @@
-These are the config files for the server plugins. Please write it down when you change something.
+These are the config files for the server plugins. All the database for plugins are currently H2, SQLite or YAML temporarily and will be switched to PostgreSQL. Please do not touch any data storage settings.
